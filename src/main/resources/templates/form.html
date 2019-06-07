@@ -7,11 +7,11 @@
 <body>
     <br /><br />
     <h1>Spring Boot file upload example</h1>
-<form method="Post" action="/add" th:object="${actor}"
-      enctype="multipart/form-data">
-        Name: <input type="text" th:field="*{realname" />
-    <input type="file" name="file" /><br/><br/>
-    <input type="submit" value="Submit" />
-</form>
+    <form method="Post" action="/add" th:object="${actor}"
+          enctype="multipart/form-data">
+            Name: <input type="text" th:field="*{realname}" />
+        <input type="file" name="file" /><br/><br/>
+        <input type="submit" value="Submit" />
+    </form>
 </body>
 </html>

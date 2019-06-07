@@ -12,9 +12,7 @@ import com.cloudinary.utils.ObjectUtils;
 
 
 import java.io.IOException;
-import java.security.AlgorithmParameters;
-import java.security.CryptoPrimitive;
-import java.security.Key;
+
 import java.util.Map;
 import java.util.Set;
 import java.lang.String;

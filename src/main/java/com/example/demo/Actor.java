@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import net.bytebuddy.dynamic.loading.InjectionClassLoader;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
